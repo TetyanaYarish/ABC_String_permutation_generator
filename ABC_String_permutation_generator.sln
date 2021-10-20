@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC_String_permutation_generator", "ABC_String_permutation_generator\ABC_String_permutation_generator.csproj", "{75811057-774B-48B4-A193-12D03398F357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75811057-774B-48B4-A193-12D03398F357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75811057-774B-48B4-A193-12D03398F357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75811057-774B-48B4-A193-12D03398F357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75811057-774B-48B4-A193-12D03398F357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A68728B0-DED2-4DA2-ABD5-DABC2BF3E859}
+	EndGlobalSection
+EndGlobal
