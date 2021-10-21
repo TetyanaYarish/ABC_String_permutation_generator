@@ -4,34 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ABC_String_permutation_generator
+namespace ABC
 {
-   public class Generator
+    public class Generator2
     {
+        string varListInput = null;
         List<string> stringList = new List<string>();
-        public Generator(IStringInputFromUser stringInput)
-        {
-            stringInput.StringFromUser();
-        }
-        public Generator()
-        {
-
-        }
-        public void ReturnInputFromUser(IStringInputFromUser inputFromUser)
+        public void ReturnInputFromUser()
         {
             for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine($"Enter your string number {i + 1}");
-                inputFromUser.StringFromUser();
+                varListInput = Console.ReadLine();
+                stringList.Add(varListInput);
             }
-            //stringList.Reverse();
+            stringList.Reverse();
         }
         public void ReturnAllCombinations()
         {
             for (int i = 3; i >= 0; i--)
             {
-                //var item = stringList[i - 1];
-                var item = (stringList[i - 1]);
                 if (i == 0)
                 {
                     Console.Write("\n");
@@ -49,6 +41,7 @@ namespace ABC_String_permutation_generator
                         Console.Write(item2);
                     }
                 }
+                var item = stringList[i - 1];
                 Console.Write(item);
             }
         }
